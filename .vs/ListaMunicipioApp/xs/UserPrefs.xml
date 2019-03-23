@@ -1,23 +1,27 @@
 ﻿<Properties StartupConfiguration="{9F347216-D811-4AA7-84E6-1E72C3D31383}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ListaMunicipioApp/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ListaMunicipioApp/Model/Municipios.cs">
     <Files>
-      <File FileName="ListaMunicipioApp/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="ListaMunicipioApp/MainPage.xaml" Line="9" Column="34" />
+      <File FileName="ListaMunicipioApp/MainPage.xaml.cs" Line="18" Column="41" />
+      <File FileName="ListaMunicipioApp/MainPage.xaml" Line="17" Column="9" />
+      <File FileName="ListaMunicipioApp/Model/Municipios.cs" Line="6" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ListaMunicipioApp" expanded="True">
             <Node name="ListaMunicipioApp" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Model" expanded="True">
+                <Node name="Municipios.cs" selected="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
-              <Node name="MainPage.xaml" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ListaMunicipioApp FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ListaMunicipioApp.iOS FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -25,5 +29,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.ListaMunicipioApp.Android FirstBuild="True" PreferredExecutionTarget="Android.JBAKB6044247LNM" />
+  <MonoDevelop.Ide.ItemProperties.ListaMunicipioApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
 </Properties>

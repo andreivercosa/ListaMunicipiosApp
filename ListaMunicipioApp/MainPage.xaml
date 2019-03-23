@@ -15,8 +15,18 @@
             x:Name="textUF"
         />
         
-        <ListView
-            x:Name="ListaMunicipio"
-        />
+        
+       <ListView x:Name="listaMunicipio">
+            <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell
+                    Text="{Binding nome}"
+                    Detail="{Binding codigo}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+    </ListView>
+            
+        
+        
     </StackLayout>
 </ContentPage>

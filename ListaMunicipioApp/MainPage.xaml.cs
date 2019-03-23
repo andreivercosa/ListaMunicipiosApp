@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Xamarin.Forms;
+using ListaMunicipioApp.Model;
 
 namespace ListaMunicipioApp
 {
@@ -24,12 +25,21 @@ namespace ListaMunicipioApp
 
             Dictionary<string, string> dadosMunicipios = municipios.ToObject<Dictionary <string, string>>();
 
-            ArrayList lista = new ArrayList();
+            List<Municipios> lista = new List<Municipios>();
+            foreach (KeyValuePair<string, string> municipio in dadosMunicipios)
+            {
+                Municipios ObjMunicipio = new Municipios();
+                ObjMunicipio.nome = municipio.Key;
+                ObjMunicipio.codigo = municipio.Value;
+                lista.Add(ObjMunicipio);
+            }
+
+            /*ArrayList lista = new ArrayList();
             foreach (KeyValuePair<string, string> municipio in dadosMunicipios)
             {
                 lista.Add(municipio.Key);
-            }
-            ListaMunicipio.ItemsSource = lista;
+            }*/
+            listaMunicipio.ItemsSource = lista;
 
         }
 
